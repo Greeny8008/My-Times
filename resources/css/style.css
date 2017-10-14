@@ -12,21 +12,19 @@ header {
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 1;
+  align-items: center;
 }
 
-div.logo {
+.logo {
   display: flex;
   align-items: center;
   padding-left: 10px;
+  flex-grow: 1;
 }
 
-.logo img {
-  display: block;
-}
 
 .title {
   color: MediumAquamarine;
-  display: block;
   height: auto;
   padding-right: 600px;
   padding-left: 10px;
@@ -39,7 +37,7 @@ nav {
 
 span {
   display: inline-flex;
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
 a {
